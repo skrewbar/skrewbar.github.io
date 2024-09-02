@@ -2,7 +2,7 @@
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
-
+future: true
 # Site
 title: 스크류바가 코딩하는 블로그
 subtitle: 사실 스크류바 안먹은지 1년 넘었습니다.
