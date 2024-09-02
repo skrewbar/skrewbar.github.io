@@ -2,6 +2,17 @@
 ---
 // CSS Style Guide: http://codeguide.co/#css
 
+.solvedac-tier {
+  width: 24px;
+  border-style: none !important;
+}
+
+.difficulty {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 
 
 $scheme    : '{{ site.scheme | default: Muse }}';
