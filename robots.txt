@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://junia3.github.io/
+Sitemap: https://skrewbar.github.io/sitemap.xml
