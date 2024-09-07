@@ -3,7 +3,7 @@ layout: post
 title: 첫 포스트
 description:
 categories:
-  - 기타
+  - Misc
 tags:
 ---
 
