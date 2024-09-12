@@ -13,6 +13,14 @@
   gap: 1rem;
 }
 
+.gold {
+  color: rgb(236, 154, 0);
+}
+
+.platinum {
+  color: rgb(39, 226, 164);
+}
+
 
 
 $scheme    : '{{ site.scheme | default: Muse }}';
