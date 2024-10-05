@@ -2,43 +2,6 @@
 ---
 // CSS Style Guide: http://codeguide.co/#css
 
-.solvedac-tier {
-  width: 24px;
-  border-style: none !important;
-}
-
-.difficulty {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.bronze {
-  color: #ad5600;
-}
-.gold {
-  color: rgb(236, 154, 0);
-}
-.platinum {
-  color: rgb(39, 226, 164);
-}
-.diamond {
-  color: rgb(0, 158, 229);
-}
-
-.ac {
-  color: #009874;
-  font-weight: bold;
-}
-.wa {
-  color: #dd4124;
-}
-.tle {
-  color: #fa7268;
-}
-
-
-
 $scheme    : '{{ site.scheme | default: Muse }}';
 $variables : base $scheme custom;
 $mixins    : base $scheme custom;
@@ -87,3 +50,60 @@ $jekyll-config-map : {{ config_map }};
 // Custom Layer
 // --------------------------------------------------
 @import "_custom/custom";
+
+
+@font-face {
+  font-family: "AppleSDGothicNeoSB";
+  src: url(/assets/fonts/AppleSDGothicNeoSB.ttf);
+}
+body {
+  font-family: "AppleSDGothicNeoSB";
+}
+
+@font-face {
+  font-family: "JetBrainsMono-Medium";
+  src: url(/assets/fonts/JetBrainsMonoNL-Medium.ttf);
+}
+@font-face {
+  font-family: "D2Coding";
+  src: url(/assets/fonts/D2Coding.ttc);
+}
+code {
+  font-family: "JetBrainsMono-Medium", "D2Coding";
+}
+
+
+.solvedac-tier {
+  width: 24px;
+  border-style: none !important;
+}
+
+.difficulty {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bronze {
+  color: #ad5600;
+}
+.gold {
+  color: rgb(236, 154, 0);
+}
+.platinum {
+  color: rgb(39, 226, 164);
+}
+.diamond {
+  color: rgb(0, 158, 229);
+}
+
+.ac {
+  color: #009874;
+  font-weight: bold;
+}
+.wa {
+  color: #dd4124;
+}
+.tle {
+  color: #fa7268;
+}
