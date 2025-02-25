@@ -13,3 +13,5 @@ Thumbs.db
 .prettierignore
 
 .vscode
+
+.jekyll-metadata
